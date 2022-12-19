@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    /*background-color: #F0F2F5;*/
+    font-family: 'Open Sans';
+}
+
+#inv-menu {
+    display: flex;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #001529;
+    width: 90px;
+    height: 100%;
+}
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+
+}
+
+.card1, .card2, 
+.card3, .card4 {
+    display: flexbox;
+    height: 158px;
+    width: 240px;
+    background-color:#5E78FF;
+    border: 0;
+    border-radius: 8px;
+}
+
+.aba2 {
+    display: flex;
+    justify-content: center;
+    width: 1114px;
+    height: 336px;    
+    background: #FFFFFF;
+}
