@@ -8,28 +8,28 @@
 #inv-menu {
     display: flex;
     position: absolute;
-    justify-content: flex-start;
-    align-items: center;
     background-color: #001529;
     width: 90px;
     height: 100%;
 }
 
-.title {
-    display: flex;
-    justify-content: flex-start;
+.menu {
+    height: 100%;
+    font-size: 26px;
 }
 
-h1{
+.title {
     display: flex;
     justify-content: center;
+    width: 545px;
+    padding: 45px;
+    color: #8A95A6;
 }
 
 .card {
     display: flex;
     justify-content: space-between;
-    padding: 25px;
-
+    padding: 110px;
 }
 
 .card1, .card2, 
@@ -47,5 +47,13 @@ h1{
     justify-content: center;
     width: 1114px;
     height: 336px;    
-    background: #FFFFFF;
+    padding: 45px;
+}
+
+.title2 {
+    display: flex;
+    justify-content: flex-start;
+    color: #8A95A6;
+    width: 80%;
+    right: 100%;
 }
